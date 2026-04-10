@@ -17,10 +17,10 @@ const DecodeJWT = sJWS => {
 
 const ValidateJWT = (header, token, key) => {
   return JSRSASign.jws.JWS.verifyJWT(token, key, header);
-};
+};     
 
 module.exports = {
   GenerateJWT,
   DecodeJWT,
   ValidateJWT
-};
+};    

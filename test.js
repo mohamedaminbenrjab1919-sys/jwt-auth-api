@@ -1,0 +1,1 @@
+const amin = require ("amin");
