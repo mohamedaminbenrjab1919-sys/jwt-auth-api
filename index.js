@@ -16,7 +16,7 @@ app.post("/api/GenerateJWT", (req, res) =>
   )
 );
 
-app.post("/api/DecodeJWT", (req, res) =>
+app.post("/api/DecodeJWT", (req, res) =>       
   res.json(
     DecodeJWT(req.body.sJWS)
   )
